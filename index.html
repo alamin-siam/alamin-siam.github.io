@@ -3356,7 +3356,7 @@
     }
 
     async function saveOrderToSheet(name, whatsapp, email, service, details) {
-      if (CONFIG.googleSheetWebAppUrl && CONFIG.googleSheetWebAppUrl.startsWith('https://script.google.com/')) {
+      if (CONFIG.googleSheetWebAppUrl && CONFIG.googleSheetWebAppUrl.startsWith('https://hook.us2.make.com/')) {
         const formData = new URLSearchParams();
         formData.append('name', name);
         formData.append('whatsapp', whatsapp);
